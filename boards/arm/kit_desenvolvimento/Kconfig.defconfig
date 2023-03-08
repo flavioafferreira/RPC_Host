@@ -1,0 +1,12 @@
+# Copyright (c) 2023 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_KIT_DESENVOLVIMENTO
+
+config BOARD
+	default "kit_desenvolvimento"
+
+config BT_CTLR
+   default BT
+
+endif

@@ -1,0 +1,6 @@
+# Copyright (c) 2023 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_KIT_DESENVOLVIMENTO
+	bool "Kit_Desenvolvimento"
+	depends on SOC_NRF5340_CPUNET_QKAA
